@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack -w & nodemon server.js"
   },
@@ -24,7 +25,8 @@
     "react-router": "^4.1.1",
     "react-router-redux": "^4.0.8",
     "redux": "^3.6.0",
-    "webpack": "^2.5.1"
+    "webpack": "^2.5.1",
+    "webpack-node-externals": "^1.6.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
